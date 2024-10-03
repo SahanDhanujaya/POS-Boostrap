@@ -69,6 +69,44 @@ header>nav>div>form>div{
 #login>section>div:nth-child(2)>form>button{
     width: 100px;
     height: 40px;
+
+}
+#register>section>div{
+    width: calc(100v);
+}
+#register>section>div>form>div>div{
+    display: flex;
+}
+#register>section>div>form>div>div>div{
+    width: 50%;
+
+}
+#register>section>div>form>div>div>div:nth-child(2){
+    margin-left: 3px;
+}
+#register>section>div>form #robot{
+    width: 150px;
+    height: 30px;
+    align-content: center;
+    background-color: rgb(194, 213, 247);
+
+}
+#register>section{
+    width: 100vw;
+    margin-bottom: 10px;
+    padding: 100px;
+}
+#register>section>div:nth-child(1){
+    border: 1px solid;
+    border: 1px solid rgb(76, 213, 99);
+    border-radius: 10px;
+    padding: 5px;
+    height: fit-content;
+    
+}
+#register>section>div:nth-child(2)>img{
+    width: 100%;
+    
 }
 
 
