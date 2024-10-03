@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
 header{
     height: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -18,3 +25,23 @@ header>nav>div>form>div{
     background-size: cover;
     background-position: center;
 }
+#content>section{
+    margin: 10px;
+}
+#content>section>.card{
+    margin-top:60px;
+    width: calc(90vw/3);
+    height: calc(100vh/2);
+    margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+#content>section>.card:nth-child(1){
+    margin-left: 0;
+}
+#content>section:nth-child(2)>div{
+    margin: 0;
+    height: fit-content;
+}
+
+
