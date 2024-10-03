@@ -1,0 +1,20 @@
+header{
+    height: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+header>nav>div>h5{
+    margin-left: 30px;
+    width: 50px;
+    align-content: center;   
+    color: white;
+}
+header>nav>div>form>div{
+    width: 40px;
+    width: 60px;
+    margin-left: 10px;
+    border-radius: 100%;
+    background-color: rgb(47, 45, 45);
+    background-image: url(assets/images/869abd703f5957318fe760bfe85b14f8.jpg);
+    background-size: cover;
+    background-position: center;
+}
