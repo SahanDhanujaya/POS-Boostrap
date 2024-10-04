@@ -157,3 +157,56 @@ header>nav>div>form>div{
     background-position: center;
     background-size: cover;
 }
+
+
+#itemForm>section>div>div{
+    height: fit-content+100px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+
+}
+#itemForm>section>div:nth-child(1)>div:nth-child(1){
+    width: 63.1%;
+
+}
+#itemForm>section>div form>button{
+    margin-top: 10px;
+
+}
+#itemForm>section>div:nth-child(1)>div:nth-child(2){
+    height: 500px;
+    
+}
+#itemForm>section>div:nth-child(2)>div:nth-child(2)>div{
+    height: calc(100vh/6);
+    border: 1px solid;
+}
+#itemForm>section>div>.items{
+
+}
+#itemForm>section>div>.items>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+#itemForm>section>div>.items>div>div:nth-child(1){
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    margin-top: 10px;
+    background-color: gray;
+    background-image: url("/assets/images/homemade-chocolate-bars.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#itemForm>section>div>.items>div>div:nth-child(2){
+    margin-top: 15px;
+    margin-left: 20px;   
+    width: 50%;
+}
+#itemForm>section>div>.items>div>div:nth-child(2){
+    text-align: start;
+}
