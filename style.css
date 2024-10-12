@@ -234,6 +234,7 @@ header>nav>div>form>div{
     display: flex;
     align-items: center;
     margin: 10px;
+    border-radius: 10px;
     
 }
 #placeOrder>section>div>form>div>input{
@@ -241,6 +242,7 @@ header>nav>div>form>div{
 }
 #placeOrder>section>div>form>div:nth-child(2)>input{
     margin: 5px;
+
 }
 #placeOrder>section>div>div>.img{
     width: 35.5%;
@@ -256,6 +258,7 @@ header>nav>div>form>div{
     height: 200px;
     margin-top: 20px;
     width: 210px;
+    border-radius: 10px;
     
     
 }
